@@ -2,6 +2,7 @@ package com.jiejiao.zcg.myonegit;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -17,6 +18,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "dianjiele" ,Toast.LENGTH_SHORT).show();
+
+
+
+                Log.i("===>>>" , "ddddd");
             }
         });
 
