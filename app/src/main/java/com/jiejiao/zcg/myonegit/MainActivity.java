@@ -21,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+        Log.i("===>>>" , "ddddd");
+
+
+
         new Thread(() -> {
 
         }).start();
