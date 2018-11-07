@@ -14,16 +14,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        findViewById(R.id.tv).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "dianjiele" ,Toast.LENGTH_SHORT).show();
-
-
-
-                Log.i("===>>>" , "ddddd");
-            }
+        findViewById(R.id.tv).setOnClickListener(v -> {
+            Toast.makeText(MainActivity.this, "dianjiele" ,Toast.LENGTH_SHORT).show();
+            Log.i("===>>>" , "ddddd");
         });
+
+
+
+        new Thread(() -> {
+
+        }).start();
+
 
     }
 }
