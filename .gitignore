@@ -10,4 +10,4 @@
 /captures
 .externalNativeBuild
 /src/androidTest
-/drc/test
+/src/test
