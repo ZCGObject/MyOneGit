@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+
+        //添加了一个注释测试是否能够合并远程分支
         findViewById(R.id.tv).setOnClickListener(v -> {
             Toast.makeText(MainActivity.this, "dianjiele" ,Toast.LENGTH_SHORT).show();
             Log.i("===>>>" , "ddddd");
