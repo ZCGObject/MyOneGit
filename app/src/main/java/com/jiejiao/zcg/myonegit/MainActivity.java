@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         //添加了一个注释测试是否能够合并远程分支
+
+        //哈哈哈
         findViewById(R.id.tv).setOnClickListener(v -> {
             Toast.makeText(MainActivity.this, "dianjiele" ,Toast.LENGTH_SHORT).show();
             Log.i("===>>>" , "ddddd");
@@ -24,7 +26,11 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
         //nawoey  dhfhsdk 
+
+        //和覅的身份hi士大夫
+
         Log.i("===>>>" , "ddddd");
 
         Log.i("===>>>" , "ddddd");
