@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i("===>>>" , "ddddd");
 
+
+        //增加了一行注释  master
         new Thread(() -> {
 
         }).start();
