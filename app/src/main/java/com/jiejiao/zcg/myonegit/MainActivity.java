@@ -25,7 +25,12 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
+        //nawoey  dhfhsdk 
+
         //和覅的身份hi士大夫
+
         Log.i("===>>>" , "ddddd");
 
         Log.i("===>>>" , "ddddd");
@@ -38,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
 
         }).start();
 
+        
+        //在最后添加得注释1.1.0
 
     }
 }
